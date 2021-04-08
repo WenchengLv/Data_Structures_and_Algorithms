@@ -1,0 +1,10 @@
+# Others
+.idea/
+.idea/*
+cmake-build-debug/
+cmake-build-debug/*
+cmake-build-release/
+cmake-build-release/*
+clion/
+clion-cmake/
+clion-cmake/*
