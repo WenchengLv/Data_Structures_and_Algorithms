@@ -1,10 +1,17 @@
 #include <iostream>
 #include "string"
-#include "3_string.h"
+#include "DSF.h"
 
 int main() {
-    Solution solution;
+    for (int i=0;i<X;i++){
+        for (int j=0;j<Y;j++){
+            chess[i][j]=0;
+        }
+    }
+    int x=2,y=0;
 
-    std::cout << solution.lengthOfLongestSubstring("fafdsa") <<std::endl;
+    TravelChess(x,y,1);
+    print();
+std::cout<<"hello"<<std::endl;
     return 0;
 }

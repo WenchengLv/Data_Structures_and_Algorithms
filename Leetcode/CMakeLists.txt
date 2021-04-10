@@ -7,4 +7,4 @@ include_directories(
         include
 )
 
-add_executable(Leetcode main.cpp include/5_Stack.h)
+add_executable(Leetcode main.cpp include/5_Stack.h include/DSF.h)
