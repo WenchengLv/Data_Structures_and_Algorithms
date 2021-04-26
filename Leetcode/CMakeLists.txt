@@ -12,4 +12,7 @@ add_executable(Leetcode main.cpp include/5_Stack.h
         include/EightQueen.h
         include/dp/198.h
         include/2_SinglyLinkedList.h
-        include/3_string.h)
+        include/3_string.h
+        include/dp/5.h
+        include/dp/5_v2.h
+        )

@@ -4,6 +4,12 @@
 
 //打家劫舍
 
+//     198.h
+//    vector<int> tmp{2,7,9,3,1};
+//    Solution solution;
+//    std::cout<< solution.rob(tmp) <<std::endl;
+
+
 #ifndef LEETCODE_198_H
 #define LEETCODE_198_H
 

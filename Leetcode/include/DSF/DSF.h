@@ -4,6 +4,17 @@
 
 //马踏棋盘
 
+//    for (int i=0;i<X;i++){
+//        for (int j=0;j<Y;j++){
+//            chess[i][j]=0;
+//        }
+//    }
+//    int x=2,y=4;
+//
+//    TravelChess(x,y,1);
+////    print();
+
+
 #ifndef LEETCODE_DSF_H
 #define LEETCODE_DSF_H
 
