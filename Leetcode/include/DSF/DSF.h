@@ -2,6 +2,8 @@
 // Created by lv on 2021/4/10.
 //
 
+//马踏棋盘
+
 #ifndef LEETCODE_DSF_H
 #define LEETCODE_DSF_H
 
@@ -90,7 +92,6 @@ int TravelChess(int & x,int & y,int tag){
     if (X*Y == tag){
         return 1;
     }
-    //
     flag = nextxy(x1,y1,count);
     while (0==flag && count<=7){
         count++;

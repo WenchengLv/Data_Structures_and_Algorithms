@@ -1,17 +1,21 @@
 #include <iostream>
 #include "string"
-#include "DSF.h"
+#include "include/dp/198.h"
 
 int main() {
-    for (int i=0;i<X;i++){
-        for (int j=0;j<Y;j++){
-            chess[i][j]=0;
-        }
-    }
-    int x=2,y=0;
+//    for (int i=0;i<X;i++){
+//        for (int j=0;j<Y;j++){
+//            chess[i][j]=0;
+//        }
+//    }
+//    int x=2,y=4;
+//
+//    TravelChess(x,y,1);
+////    print();
 
-    TravelChess(x,y,1);
-    print();
-std::cout<<"hello"<<std::endl;
+    vector<int> tmp{2,7,9,3,1};
+    Solution solution;
+
+    std::cout<< solution.rob(tmp) <<std::endl;
     return 0;
 }
