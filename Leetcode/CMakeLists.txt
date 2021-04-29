@@ -15,4 +15,7 @@ add_executable(Leetcode main.cpp include/5_Stack.h
         include/3_string.h
         include/dp/5.h
         include/dp/5_v2.h
+        include/stack/42.h
+        include/dp/62.h
+        include/dp/63.h
         )
