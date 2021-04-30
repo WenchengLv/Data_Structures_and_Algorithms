@@ -18,4 +18,6 @@ add_executable(Leetcode main.cpp include/5_Stack.h
         include/stack/42.h
         include/dp/62.h
         include/dp/63.h
+        include/dp/70_climbStairs.h
+        include/dp/32_longestValidParentheses.h
         )
