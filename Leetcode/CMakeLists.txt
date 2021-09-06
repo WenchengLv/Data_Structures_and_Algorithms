@@ -11,7 +11,7 @@ add_executable(Leetcode main.cpp include/5_Stack.h
         include/DSF/DSF.h
         include/EightQueen.h
         include/dp/198.h
-        include/2_SinglyLinkedList.h
+        include/LinkedList/2_SinglyLinkedList.h
         include/3_string.h
         include/dp/5.h
         include/dp/5_v2.h
@@ -20,4 +20,5 @@ add_executable(Leetcode main.cpp include/5_Stack.h
         include/dp/63.h
         include/dp/70_climbStairs.h
         include/dp/32_longestValidParentheses.h
-        )
+        include/LinkedList/19_DeleteNode.h include/LinkedList/21_mergeTwoLists.h
+        include/LinkedList/61_rotateRight.h include/LinkedList/91_reverseBetween.h)
