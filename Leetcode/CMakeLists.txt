@@ -21,4 +21,4 @@ add_executable(Leetcode main.cpp include/5_Stack.h
         include/dp/70_climbStairs.h
         include/dp/32_longestValidParentheses.h
         include/LinkedList/19_DeleteNode.h include/LinkedList/21_mergeTwoLists.h
-        include/LinkedList/61_rotateRight.h include/LinkedList/91_reverseBetween.h)
+        include/LinkedList/61_rotateRight.h include/LinkedList/91_reverseBetween.h include/LinkedList/141_hasCycle.h include/string/8_myAtoi.h)
